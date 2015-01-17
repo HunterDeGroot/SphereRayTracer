@@ -160,6 +160,10 @@ void display(void) {
     glutSwapBuffers();
 }
 
+// Somehow fixes memory management bug
+void mem(void) {}
+void man(void) {}
+
 int main(int argc, char **argv)
 {
     

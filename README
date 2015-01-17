@@ -5,5 +5,3 @@ Description: Had to build simple ray tracer for graphics class for one of the bi
 
 Compile: g++ -framework OpenGL -framework GLUT bmp.cpp p4.cpp -o p4 -Wno-deprecated
 Run: ./p4 golf.bmp
-	
-Info: May need to rerun (not re compile) a few times (4 max) so it finds memory if yours is low like mine (due to bit map implementation)
